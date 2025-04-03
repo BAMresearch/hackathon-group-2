@@ -1,32 +1,12 @@
-site_name: BAM Masterdata
-site_description: Documentation page for the BAM Masterdata.
+site_name: Data Store Days - Data modeling and ontologies
+site_description: Documentation page for the Data Store Days on April 2025 for Group 2.
 site_author: BAM Data Store
-repo_url: https://github.com/BAMresearch/bam-masterdata
+repo_url: https://github.com/BAMresearch/hackathon-group-2
 nav:
-  - Home: index.md
-  - Tutorial:
-    - Create Masterdata: tutorials/create-masterdata.md
-    - Basic pyBIS usage: tutorials/pybis.md
-  - How-to guides:
-    - Overview: howtos/overview.md
-    - pyBIS:
-      - Initial setup: howtos/pybis/setup.md
-      - Create spaces: howtos/pybis/spaces.md
-      - Create projects: howtos/pybis/projects.md
-      - Create collections: howtos/pybis/collections.md
-      - Create objects: howtos/pybis/objects.md
-      - Modify objects properties: howtos/pybis/objects_props.md
-      - Define parent-child relationships: howtos/pybis/parent_child.md
-      - Create datasets: howtos/pybis/datasets.md
-      - Searches and filters: howtos/pybis/searches.md
-  - Explanations:
-    - Data Store: explanations/data-store.md
-    - OpenBIS : explanations/openbis.md
-    - pyBIS : explanations/pybis.md
-  - References:
-    - Collection: references/collection.md
-    - Controlled Vocabulary: references/controlled-vocabulary.md
-    - Dataset: references/dataset.md
+  - Overview: index.md
+  - Block I - Introduction to the BAM Data Store: block_1.md
+  - Block II - BAM Masterdata: block_2.md
+  - Block III - Representing workflows in the BAM Data Store: block_3.md
 theme:
   name: material
   palette:
@@ -42,8 +22,8 @@ theme:
       # toggle:
       #   icon: material/weather-night
       #   name: Switch to dark mode
-  logo: assets/bammasterdata_blue_transparent.png
-  favicon: assets/bammasterdata_blue_transparent.png
+  logo: assets/datastore-logo.png
+  favicon: assets/datastore-logo.png
   features:
     - navigation.path
     - navigation.footer

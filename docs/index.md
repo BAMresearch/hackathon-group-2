@@ -2,54 +2,28 @@
 hide: toc
 ---
 
-# Welcome to the BAM Data Store documentation page.
+# Data modeling and ontologies implementation in the BAM Data Store
 
-The BAM **Data Store** is a central system for digital Research Data Management at the Bundesanstalt für Materialforschung und -prüfung (BAM). It is a modified instance of [openBIS](https://openbis.ch/), so this documentation page does not intend to replace the openBIS documentation, but rather serve as an additional source of information for BAM employees who use the Data Store.
+The goal of this documentation page is to provide a central place to get information about what is and was done during the BAM Data Store Days for the Group 2. This event took place from Wednesday, April 9, 2025, to Friday, April 11, 2025.
 
-<!-- This documentation page is divided according to the [diataxis method](https://www.diataxis.fr/). -->
-
-
-<div markdown="block" class="home-grid">
-
-<div markdown="block">
-
-<h3>Tutorials</h3>
-
-The **Tutorials** are designed to guide you through the general and basic understanding of the functionalities of the Data Store. These are intended for learning the software in a first approach.
-
-- [Creating Masterdata](tutorials/create-masterdata.md)
-- [pyBIS tutorial](tutorials/pybis.md)
-
-</div>
-
-<div markdown="block">
-
-<h3>How-to guides</h3>
-
-The **How-to guides** provide step-by-step instructions for a wide range of tasks. These are oriented for a practical application so you can use them as a fast entry point when searching for specific information.
+The focus of Group 2 will be to work with the BAM Masterdata definitions, improving them if possible and extending them when necessary, identifying commonalities amongst participants, and working together towards an higher-level ontology implementation for such definitions.
 
 
-</div>
+## Preparation
 
-<div markdown="block">
+In order to be ready for this event, we ask the participants to prepare an example use-case of the workflows that they typically perform during their scientific day life.
 
-<h3>Explanations</h3>
+In this group, it is also necessary to have a minimal knowledge of Python and Github. We list here the links which will be used during the event:
 
-The **Explanations** give you a theoretical background about the main concepts used in the Data Store. These are overlapping with openBIS and pyBIS concepts, but also some specific Data Store ones, as well as on Research Data Management and Good Scientific Practices.
-
-</div>
-
-<div markdown="block">
-
-<h3>References</h3>
-
-The **References** include the glossary of used terms and API documentation.
-
-</div>
-
-</div>
+- [BAMresearch/bam-masterdata](https://github.com/BAMresearch/bam-masterdata): The Github repository containing the main BAM Masterdata definitions as well as some important utility functions.
+- [BAMresearch/masterdata-template](https://github.com/BAMresearch/masterdata-template): A template Github repository to be used when the BAM Masterdata definitions need to be extended.
+- [BAMresearch/masterdata-generator](https://github.com/BAMresearch/masterdata-generator): A cookiecutter Github repository used to generate the skeleton of the Masterdata templates.
+- [BAM Data Store Wiki](https://datastore.bam.de/en/home): The BAM Data Store Wiki containing useful information about the software and project.
+- [Main BAM Data Store instance](https://main.datastore.bam.de/): The main instance of the BAM Data Store. Note this can only be accessed when in the BAM network.
+- [Testing playground instance](https://bam-openbis01.germanywestcentral.cloudapp.azure.com/): The testing instance used during the BAM Data Store Days. Note this can only be accessed when in the BAM network.
 
 
 ## Contact
-Many parts of this documentation are currently under construction. If you have further questions that are not yet answered here, please contact [datastore@bam.de](mailto:datastore@bam.de).
+
+If you have further questions, please contact [datastore@bam.de](mailto:datastore@bam.de). Alternatively, you can also reach out to the organizers of Group 2: Carlos Madariaga and Jose Pizarro Blanco.
 
