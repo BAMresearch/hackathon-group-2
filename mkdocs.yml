@@ -1,7 +1,6 @@
 site_name: Data Store Days - Data modeling and ontologies
 site_description: Documentation page for the Data Store Days on April 2025 for Group 2.
 site_author: BAM Data Store
-repo_url: https://github.com/BAMresearch/hackathon-group-2
 nav:
   - Overview: index.md
   - Block I - Introduction to the BAM Data Store: block_1.md
