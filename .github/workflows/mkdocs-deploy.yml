@@ -21,7 +21,7 @@ jobs:
       - name: Install Documentation Dependencies
         run: |
           pip install --upgrade pip
-          pip install .[docu]
+          pip install -r requirements.txt
       - name: Deploy docs
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
