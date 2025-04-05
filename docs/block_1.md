@@ -21,6 +21,7 @@ In openBIS, we also distinguish between the ELN and the Inventory in order to di
 ## Represent your research workflow in the Data Store
 
 In order to represent your workflow in the Data Store, you need to:
+
 - Identify the tangible and intangible object types you need.
 - Explore the currently defined object types and their assigned properties to check if any of them align with the object types that you need.
 - For those cases where you do not find an object type already defined, extend the current Masterdata (see [Block II - BAM Masterdata](block_2.md)).
